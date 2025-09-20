@@ -1,23 +1,45 @@
+# macOS
 .DS_Store
-node_modules
-/dist
 
+# Node dependencies
+node_modules/
 
-# local env files
-.env.local
-.env.*.local
+# Build output
+dist/
+build/
+
+# Local env files
+.env
+.env.*
 
 # Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+logs/
+*.log
 
 # Editor directories and files
-.idea
-.vscode
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS files
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Temporary
+tmp/
+
+# Optional npm cache
+.npm/
+
+# Lock files (recommend committing pnpm-lock.yaml)
+# pnpm-lock.yaml
